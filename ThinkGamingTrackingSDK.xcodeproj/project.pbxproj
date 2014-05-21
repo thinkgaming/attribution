@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		86A65E52192D25760057A625 /* libThinkGamingTrackingSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 86A65E55192D25770057A625 /* Build configuration list for PBXAggregateTarget "libThinkGamingTrackingSDK" */;
+			buildPhases = (
+				86A65E56192D258A0057A625 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = libThinkGamingTrackingSDK;
+			productName = libThinkGamingTrackingSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		86AE108A192BC4CC008746CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AE1089192BC4CC008746CB /* Foundation.framework */; };
+		86AE108F192BC4CC008746CB /* ThinkGamingTrackingSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86AE108E192BC4CC008746CB /* ThinkGamingTrackingSDK.h */; };
+		86AE1091192BC4CC008746CB /* ThinkGamingTrackingSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AE1090192BC4CC008746CB /* ThinkGamingTrackingSDK.m */; };
+		86AE1098192BC4CC008746CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AE1097192BC4CC008746CB /* XCTest.framework */; };
+		86AE1099192BC4CC008746CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AE1089192BC4CC008746CB /* Foundation.framework */; };
+		86AE109B192BC4CC008746CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AE109A192BC4CC008746CB /* UIKit.framework */; };
+		86AE109E192BC4CC008746CB /* libThinkGamingTrackingSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AE1086192BC4CC008746CB /* libThinkGamingTrackingSDK.a */; };
+		86AE10A4192BC4CC008746CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86AE10A2192BC4CC008746CB /* InfoPlist.strings */; };
+		86AE10A6192BC4CC008746CB /* ThinkGamingTrackingSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AE10A5192BC4CC008746CB /* ThinkGamingTrackingSDKTests.m */; };
+		86AE10B1192BC5A5008746CB /* libAppsFlyerLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AE10B0192BC5A5008746CB /* libAppsFlyerLib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86AE109C192BC4CC008746CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86AE107E192BC4CC008746CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86AE1085192BC4CC008746CB;
+			remoteInfo = ThinkGamingTrackingSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86AE1084192BC4CC008746CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				86AE108F192BC4CC008746CB /* ThinkGamingTrackingSDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		86AE1086192BC4CC008746CB /* libThinkGamingTrackingSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libThinkGamingTrackingSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AE1089192BC4CC008746CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86AE108D192BC4CC008746CB /* ThinkGamingTrackingSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThinkGamingTrackingSDK-Prefix.pch"; sourceTree = "<group>"; };
+		86AE108E192BC4CC008746CB /* ThinkGamingTrackingSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThinkGamingTrackingSDK.h; sourceTree = "<group>"; };
+		86AE1090192BC4CC008746CB /* ThinkGamingTrackingSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThinkGamingTrackingSDK.m; sourceTree = "<group>"; };
+		86AE1096192BC4CC008746CB /* ThinkGamingTrackingSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkGamingTrackingSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AE1097192BC4CC008746CB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		86AE109A192BC4CC008746CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		86AE10A1192BC4CC008746CB /* ThinkGamingTrackingSDKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThinkGamingTrackingSDKTests-Info.plist"; sourceTree = "<group>"; };
+		86AE10A3192BC4CC008746CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86AE10A5192BC4CC008746CB /* ThinkGamingTrackingSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThinkGamingTrackingSDKTests.m; sourceTree = "<group>"; };
+		86AE10AF192BC5A5008746CB /* AppsFlyerTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsFlyerTracker.h; sourceTree = "<group>"; };
+		86AE10B0192BC5A5008746CB /* libAppsFlyerLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppsFlyerLib.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86AE1083192BC4CC008746CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AE10B1192BC5A5008746CB /* libAppsFlyerLib.a in Frameworks */,
+				86AE108A192BC4CC008746CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AE1093192BC4CC008746CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AE1098192BC4CC008746CB /* XCTest.framework in Frameworks */,
+				86AE109B192BC4CC008746CB /* UIKit.framework in Frameworks */,
+				86AE1099192BC4CC008746CB /* Foundation.framework in Frameworks */,
+				86AE109E192BC4CC008746CB /* libThinkGamingTrackingSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86AE107D192BC4CC008746CB = {
+			isa = PBXGroup;
+			children = (
+				86AE108B192BC4CC008746CB /* ThinkGamingTrackingSDK */,
+				86AE109F192BC4CC008746CB /* ThinkGamingTrackingSDKTests */,
+				86AE1088192BC4CC008746CB /* Frameworks */,
+				86AE1087192BC4CC008746CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86AE1087192BC4CC008746CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86AE1086192BC4CC008746CB /* libThinkGamingTrackingSDK.a */,
+				86AE1096192BC4CC008746CB /* ThinkGamingTrackingSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86AE1088192BC4CC008746CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86AE1089192BC4CC008746CB /* Foundation.framework */,
+				86AE1097192BC4CC008746CB /* XCTest.framework */,
+				86AE109A192BC4CC008746CB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86AE108B192BC4CC008746CB /* ThinkGamingTrackingSDK */ = {
+			isa = PBXGroup;
+			children = (
+				86AE10AF192BC5A5008746CB /* AppsFlyerTracker.h */,
+				86AE10B0192BC5A5008746CB /* libAppsFlyerLib.a */,
+				86AE108E192BC4CC008746CB /* ThinkGamingTrackingSDK.h */,
+				86AE1090192BC4CC008746CB /* ThinkGamingTrackingSDK.m */,
+				86AE108C192BC4CC008746CB /* Supporting Files */,
+			);
+			path = ThinkGamingTrackingSDK;
+			sourceTree = "<group>";
+		};
+		86AE108C192BC4CC008746CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86AE108D192BC4CC008746CB /* ThinkGamingTrackingSDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86AE109F192BC4CC008746CB /* ThinkGamingTrackingSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				86AE10A5192BC4CC008746CB /* ThinkGamingTrackingSDKTests.m */,
+				86AE10A0192BC4CC008746CB /* Supporting Files */,
+			);
+			path = ThinkGamingTrackingSDKTests;
+			sourceTree = "<group>";
+		};
+		86AE10A0192BC4CC008746CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86AE10A1192BC4CC008746CB /* ThinkGamingTrackingSDKTests-Info.plist */,
+				86AE10A2192BC4CC008746CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86AE1085192BC4CC008746CB /* ThinkGamingTrackingSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86AE10A9192BC4CC008746CB /* Build configuration list for PBXNativeTarget "ThinkGamingTrackingSDK" */;
+			buildPhases = (
+				86AE1082192BC4CC008746CB /* Sources */,
+				86AE1083192BC4CC008746CB /* Frameworks */,
+				86AE1084192BC4CC008746CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThinkGamingTrackingSDK;
+			productName = ThinkGamingTrackingSDK;
+			productReference = 86AE1086192BC4CC008746CB /* libThinkGamingTrackingSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		86AE1095192BC4CC008746CB /* ThinkGamingTrackingSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86AE10AC192BC4CC008746CB /* Build configuration list for PBXNativeTarget "ThinkGamingTrackingSDKTests" */;
+			buildPhases = (
+				86AE1092192BC4CC008746CB /* Sources */,
+				86AE1093192BC4CC008746CB /* Frameworks */,
+				86AE1094192BC4CC008746CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86AE109D192BC4CC008746CB /* PBXTargetDependency */,
+			);
+			name = ThinkGamingTrackingSDKTests;
+			productName = ThinkGamingTrackingSDKTests;
+			productReference = 86AE1096192BC4CC008746CB /* ThinkGamingTrackingSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86AE107E192BC4CC008746CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ThinkGaming;
+			};
+			buildConfigurationList = 86AE1081192BC4CC008746CB /* Build configuration list for PBXProject "ThinkGamingTrackingSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86AE107D192BC4CC008746CB;
+			productRefGroup = 86AE1087192BC4CC008746CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86AE1085192BC4CC008746CB /* ThinkGamingTrackingSDK */,
+				86AE1095192BC4CC008746CB /* ThinkGamingTrackingSDKTests */,
+				86A65E52192D25760057A625 /* libThinkGamingTrackingSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86AE1094192BC4CC008746CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AE10A4192BC4CC008746CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86A65E56192D258A0057A625 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "XCODEBUILD_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin\nXCODEBUILD=$XCODEBUILD_PATH/xcodebuild\n\nxcodebuild -project 'ThinkGamingTrackingSDK.xcodeproj' -configuration 'Release' -sdk 'iphoneos' clean build ARCHS='armv7 armv7s' IPHONEOS_DEPLOYMENT_TARGET='5.0' TARGET_BUILD_DIR='./build/build-arm' BUILT_PRODUCTS_DIR='./build-arm'\n\nxcodebuild -project 'ThinkGamingTrackingSDK.xcodeproj' -configuration 'Release' -sdk 'iphoneos' clean build ARCHS='arm64' IPHONEOS_DEPLOYMENT_TARGET='7.0' TARGET_BUILD_DIR='./build/build-arm64' BUILT_PRODUCTS_DIR='./build-arm64'\n\nxcodebuild -project 'ThinkGamingTrackingSDK.xcodeproj' -configuration 'Release' -sdk 'iphonesimulator' clean build ARCHS='i386' IPHONEOS_DEPLOYMENT_TARGET='5.0' TARGET_BUILD_DIR='./build/build-i386' BUILT_PRODUCTS_DIR='./build-i386'\n\nxcodebuild -project 'ThinkGamingTrackingSDK.xcodeproj' -configuration 'Release' -sdk 'iphonesimulator' clean build ARCHS='x86_64' VALID_ARCHS='x86_64' IPHONEOS_DEPLOYMENT_TARGET='7.0' TARGET_BUILD_DIR='./build/build-x86_64' BUILT_PRODUCTS_DIR='./build/build-x86_64'\n\nmkdir -p \"${SRCROOT}/libs\"\ncp \"${SRCROOT}/ThinkGamingTrackingSDK/ThinkGamingTrackingSDK.h\" \"${SRCROOT}/libs/\"\ncp \"${SRCROOT}/ThinkGamingTrackingSDK/libAppsFlyerLib.a\" \"${SRCROOT}/libs/\"\n\nlipo -create './build/build-arm/libThinkGamingTrackingSDK.a' './build/build-arm64/libThinkGamingTrackingSDK.a' './build/build-i386/libThinkGamingTrackingSDK.a' './build/build-x86_64/libThinkGamingTrackingSDK.a' -output  \"${SRCROOT}/libs/libThinkGaming.a\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86AE1082192BC4CC008746CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AE1091192BC4CC008746CB /* ThinkGamingTrackingSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AE1092192BC4CC008746CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AE10A6192BC4CC008746CB /* ThinkGamingTrackingSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86AE109D192BC4CC008746CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86AE1085192BC4CC008746CB /* ThinkGamingTrackingSDK */;
+			targetProxy = 86AE109C192BC4CC008746CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86AE10A2192BC4CC008746CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86AE10A3192BC4CC008746CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86A65E53192D25770057A625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86A65E54192D25770057A625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86AE10A7192BC4CC008746CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86AE10A8192BC4CC008746CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86AE10AA192BC4CC008746CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ThinkGamingTrackingSDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThinkGamingTrackingSDK/ThinkGamingTrackingSDK-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThinkGamingTrackingSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		86AE10AB192BC4CC008746CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ThinkGamingTrackingSDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThinkGamingTrackingSDK/ThinkGamingTrackingSDK-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThinkGamingTrackingSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		86AE10AD192BC4CC008746CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThinkGamingTrackingSDK/ThinkGamingTrackingSDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ThinkGamingTrackingSDKTests/ThinkGamingTrackingSDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		86AE10AE192BC4CC008746CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThinkGamingTrackingSDK/ThinkGamingTrackingSDK-Prefix.pch";
+				INFOPLIST_FILE = "ThinkGamingTrackingSDKTests/ThinkGamingTrackingSDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86A65E55192D25770057A625 /* Build configuration list for PBXAggregateTarget "libThinkGamingTrackingSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A65E53192D25770057A625 /* Debug */,
+				86A65E54192D25770057A625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86AE1081192BC4CC008746CB /* Build configuration list for PBXProject "ThinkGamingTrackingSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AE10A7192BC4CC008746CB /* Debug */,
+				86AE10A8192BC4CC008746CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86AE10A9192BC4CC008746CB /* Build configuration list for PBXNativeTarget "ThinkGamingTrackingSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AE10AA192BC4CC008746CB /* Debug */,
+				86AE10AB192BC4CC008746CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86AE10AC192BC4CC008746CB /* Build configuration list for PBXNativeTarget "ThinkGamingTrackingSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AE10AD192BC4CC008746CB /* Debug */,
+				86AE10AE192BC4CC008746CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86AE107E192BC4CC008746CB /* Project object */;
+}
