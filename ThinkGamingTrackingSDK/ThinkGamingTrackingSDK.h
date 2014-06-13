@@ -12,5 +12,6 @@
 @interface ThinkGamingTrackingSDK : NSObject <AppsFlyerTrackerDelegate>
 
 + (ThinkGamingTrackingSDK *) startSessionWithDevKey:(NSString *)appsFlyerDevKey appId:(NSString *)appId;
++ (ThinkGamingTrackingSDK *) startSessionWithDevKey:(NSString *)appsFlyerDevKey appId:(NSString *)appId andDelegate:(id<AppsFlyerTrackerDelegate>)delegate;
 
 @end
