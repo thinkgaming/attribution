@@ -24,6 +24,5 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "LIBRARY_SEARCH_PATHS" => "$(PODS_ROOT)/ThinkGamingAttributionSDK" }
   s.dependency "ThinkGaming"
-  s.resource = "ThinkGamingTrackingSDK/libAppsFlyerLib.a"
 
 end
